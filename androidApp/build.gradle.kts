@@ -42,9 +42,6 @@ dependencies {
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.compose.material3)
     implementation(libs.androidx.activity.compose)
-//    implementation (libs.tools.threetenbp)
-//    implementation (libs.tools.calendar)
-//    implementation("com.github.nlfmnlp:chinese-calendar:1.2.0")
-//    implementation (libs.lunarcalendar)
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
     debugImplementation(libs.compose.ui.tooling)
 }

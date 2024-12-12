@@ -31,6 +31,7 @@ kotlin {
         commonMain.dependencies {
             //put your multiplatform dependencies here
             api(libs.lunarcalendar)
+            api(libs.androidx.lifecycle.livedata.ktx)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

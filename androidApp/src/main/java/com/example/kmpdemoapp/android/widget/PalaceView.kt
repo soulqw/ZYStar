@@ -27,18 +27,18 @@ fun PalaceView(model: Palace) {
                 LittleText("空亡", Modifier.align(Alignment.TopEnd))
             }
             Box(modifier = Modifier.fillMaxWidth()) {
-                LittleText(model.tianPanGan, Modifier.align(Alignment.TopStart))
+                LittleText("天盘干", Modifier.align(Alignment.TopStart))
                 LittleText("九星", Modifier.align(Alignment.TopEnd))
             }
             Box(modifier = Modifier.fillMaxWidth()) {
-                LittleText("地盘干", Modifier.align(Alignment.TopStart))
+                LittleText(model.diPanGan, Modifier.align(Alignment.TopStart))
                 LittleText("八门", Modifier.align(Alignment.TopEnd))
             }
         }
+    }
 //        LargeText(
 //            text = "${model.name}${model.number}宫", modifier = Modifier.align(Alignment.Center)
 //        )
-    }
 //     Column {
 //        Text(text = model.name)
 }
